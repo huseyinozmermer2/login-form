@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hüseyin ÖZMERMER">
+    <meta name="description" content="web tasarım ve pazarlama">
+    <meta name="keywords" content="web,tasarım,dizayn,programlama,yazılım,geliştirme">
+    <title>Animasyonlu Login Form</title>
+    <!-- Fontawesome  -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="row">
+            <div class="logo">
+                <h2>Hoş Geldiniz</h2>
+                <img src="img/resimyok.png" alt="Resim">
+            </div>
+        </div>
+        <div class="row">
+            <form class="needs-validation" action="#" id="uyelikFormu" name="uyelikFormu" novalidate>
+                <div class="form-floating">
+                    <input id="email" class="input" type="email" placeholder="Email Adresi...." required>
+                    <div class="underline"></div>
+                </div>
+                <div class="invalid-feedback" id="ErrEmail"></div>
+                <div class="form-floating">
+                    <input id="pass" class="input" type="password" placeholder="Şifre Giriniz..." required>
+                    <div class="underline"></div>
+                </div>
+                <div class="invalid-feedback2" id="ErrPass"></div>
+                <div class="form-floating2">
+                    <div>
+                        <input id="checkbox" class="checkbox" type="checkbox">
+                        <label>Beni Hatırla</label>
+                    </div>
+                    <a href="#">Şifrenizi unuttunuz mu?</a>
+                </div>
+                <div class="invalid-feedback2" id="ErrCheckbox"></div>
+                <div class="form-floating">
+                    <input class="input2" type="submit" value="Giriş Yap">
+                </div>
+            </form>
+        </div>
+        <div class="row2">
+            <div class="hesap">
+                <h2>Hesabınız yokmu?</h2>
+                <a href="#">Üye Ol</a>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="social-media">
+                <div class="facebook">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="twitter">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="instagram">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>          
+            </div>
+        </div>
+   </div>
+    
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
